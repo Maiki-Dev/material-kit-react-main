@@ -71,7 +71,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Companies | GJ CARGO
+        Бүтээгдэхүүн | GJ CARGO
       </title>
     </Head>
     <Box
@@ -90,7 +90,7 @@ const Page = () => (
           >
             <Stack spacing={1}>
               <Typography variant="h4">
-                Companies
+                Бүтээгдэхүүн
               </Typography>
               <Stack
                 alignItems="center"
@@ -128,7 +128,7 @@ const Page = () => (
                 )}
                 variant="contained"
               >
-                Add
+                Нэмэх
               </Button>
             </div>
           </Stack>

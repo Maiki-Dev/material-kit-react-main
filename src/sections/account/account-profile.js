@@ -62,7 +62,7 @@ export const AccountProfile = () => (
         fullWidth
         variant="text"
       >
-        Upload picture
+        Зураг оруулах
       </Button>
     </CardActions>
   </Card>

@@ -60,12 +60,12 @@ export const TopNav = (props) => {
           >
             {!lgUp && (
               <IconButton onClick={onNavOpen}>
-                <SvgIcon fontSize="small">
+                <SvgIcon fontSize="small">  
                   <Bars3Icon />
                 </SvgIcon>
               </IconButton>
             )}
-            <Tooltip title="Search">
+            <Tooltip title="Хайх">
               <IconButton>
                 <SvgIcon fontSize="small">
                   <MagnifyingGlassIcon />
@@ -78,14 +78,14 @@ export const TopNav = (props) => {
             direction="row"
             spacing={2}
           >
-            <Tooltip title="Contacts">
+            <Tooltip title="Харилцагч">
               <IconButton>
                 <SvgIcon fontSize="small">
                   <UsersIcon />
                 </SvgIcon>
               </IconButton>
             </Tooltip>
-            <Tooltip title="Notifications">
+            <Tooltip title="Мэдэгдэл">
               <IconButton>
                 <Badge
                   badgeContent={4}

@@ -170,7 +170,7 @@ export const AccountProfileDetails = () => {
         <Divider />
         <CardActions sx={{ justifyContent: 'flex-end' }}>
           <Button variant="contained">
-            Save details
+            Хадгалах
           </Button>
         </CardActions>
       </Card>

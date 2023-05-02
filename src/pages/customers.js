@@ -38,8 +38,8 @@ const data = [
     },
     avatar: '/assets/avatars/avatar-fran-perez.png',
     createdAt: subDays(subHours(now, 1), 2).getTime(),
-    email: 'boldoo@email.com',
-    name: 'Boldoo',
+    email: 'aagii@email.com',
+    name: 'aagii',
     phone: '99999999'
   },
   {
@@ -52,8 +52,8 @@ const data = [
     },
     avatar: '/assets/avatars/avatar-jie-yan-song.png',
     createdAt: subDays(subHours(now, 4), 2).getTime(),
-    email: 'boldoo@email.com',
-    name: 'Boldoo',
+    email: 'bymbaa@email.com',
+    name: 'bymbaa',
     phone: '99999999'
   },
   {
@@ -66,8 +66,8 @@ const data = [
     },
     avatar: '/assets/avatars/avatar-anika-visser.png',
     createdAt: subDays(subHours(now, 11), 2).getTime(),
-    email: 'boldoo@email.com',
-    name: 'Boldoo',
+    email: 'solongo@email.com',
+    name: 'Solongo',
     phone: '99999999'
   },
   {
@@ -80,8 +80,8 @@ const data = [
     },
     avatar: '/assets/avatars/avatar-miron-vitold.png',
     createdAt: subDays(subHours(now, 7), 3).getTime(),
-    email: 'boldoo@email.com',
-    name: 'Boldoo',
+    email: 'oyuk@email.com',
+    name: 'Oyuk',
     phone: '99999999'
   },
   {
@@ -94,8 +94,8 @@ const data = [
     },
     avatar: '/assets/avatars/avatar-penjani-inyene.png',
     createdAt: subDays(subHours(now, 5), 4).getTime(),
-    email: 'boldoo@email.com',
-    name: 'Boldoo',
+    email: 'nymka@email.com',
+    name: 'nymka',
     phone: '99999999'
   },
   {
@@ -218,7 +218,7 @@ const Page = () => {
             >
               <Stack spacing={1}>
                 <Typography variant="h4">
-                  Customers
+                  Хэрэглэгчид
                 </Typography>
                 <Stack
                   alignItems="center"
