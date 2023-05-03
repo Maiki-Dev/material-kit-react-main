@@ -204,10 +204,10 @@ const Page = () => {
                   sx={{ mb: 1 }}
                   variant="h6"
                 >
-                  Not available in the demo
+                  Түр үлдээв!!!
                 </Typography>
                 <Typography color="text.secondary">
-                  To prevent unnecessary costs we disabled this feature in the demo.
+                  Цаашид үргэжлүүлнэ
                 </Typography>
               </div>
             )}
