@@ -71,7 +71,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Login | GJ CARGO
+          Тавтай морил | GJ CARGO
         </title>
       </Head>
       <Box
@@ -97,13 +97,13 @@ const Page = () => {
               sx={{ mb: 3 }}
             >
               <Typography variant="h4">
-                Login
+                Нэвтрэх
               </Typography>
               <Typography
                 color="text.secondary"
                 variant="body2"
               >
-                Don&apos;t have an account?
+                Танд нэвтрэх эрх байгаа юу? Үгүй бол
                 &nbsp;
                 <Link
                   component={NextLink}
@@ -111,7 +111,7 @@ const Page = () => {
                   underline="hover"
                   variant="subtitle2"
                 >
-                  Register
+                  Бүртгүүлэх
                 </Link>
               </Typography>
             </Stack>
@@ -121,11 +121,11 @@ const Page = () => {
               value={method}
             >
               <Tab
-                label="Email"
+                label="Имайл"
                 value="email"
               />
               <Tab
-                label="Phone Number"
+                label="Утасны Дугаар"
                 value="phoneNumber"
               />
             </Tabs>
@@ -139,7 +139,7 @@ const Page = () => {
                     error={!!(formik.touched.email && formik.errors.email)}
                     fullWidth
                     helperText={formik.touched.email && formik.errors.email}
-                    label="Email Address"
+                    label="Имайл Хаяг"
                     name="email"
                     onBlur={formik.handleBlur}
                     onChange={formik.handleChange}
@@ -150,7 +150,7 @@ const Page = () => {
                     error={!!(formik.touched.password && formik.errors.password)}
                     fullWidth
                     helperText={formik.touched.password && formik.errors.password}
-                    label="Password"
+                    label="Нууц үг"
                     name="password"
                     onBlur={formik.handleBlur}
                     onChange={formik.handleChange}
@@ -159,7 +159,7 @@ const Page = () => {
                   />
                 </Stack>
                 <FormHelperText sx={{ mt: 1 }}>
-                  Optionally you can skip.
+                  Энийг одоохондоо хая сда
                 </FormHelperText>
                 {formik.errors.submit && (
                   <Typography
@@ -177,7 +177,7 @@ const Page = () => {
                   type="submit"
                   variant="contained"
                 >
-                  Continue
+                  Үргэжлүүлэх
                 </Button>
                 <Button
                   fullWidth
@@ -185,7 +185,7 @@ const Page = () => {
                   sx={{ mt: 3 }}
                   onClick={handleSkip}
                 >
-                  Skip authentication
+                  Энийг дараад алгас сда
                 </Button>
                 <Alert
                   color="primary"
@@ -193,7 +193,7 @@ const Page = () => {
                   sx={{ mt: 3 }}
                 >
                   <div>
-                    You can use <b>demo@neokhub.com</b> and password <b>Password123!</b>
+                    Эсвэл энийг ашигла нэр: <b>demo@neokhub.com</b> нууц үг: <b>Password123!</b>
                   </div>
                 </Alert>
               </form>
